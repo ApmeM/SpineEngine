@@ -1,0 +1,7 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)\..\nugetData\Content\SpineEngineContent.mgcb">
+      <Link>Content\SpineEngineContent.mgcb</Link>
+    </MonoGameContentReference>
+  </ItemGroup>
+</Project>

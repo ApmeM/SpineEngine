@@ -19,6 +19,8 @@
   <ItemGroup>
     <PackageReference Include="Retyped.dom" Version="2.8.6733" />
     <PackageReference Include="Bridge" Version="17.6.0" />
+    <PackageReference Include="MonoGame.Framework.Bridge" Version="3.7.0.2" />
+    <PackageReference Include="LocomotorECS-BridgeNet" Version="1.1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,4 +29,18 @@
     </AssemblyAttribute>
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Templates\ContentPathGenerator.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ContentPathGenerator.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="Templates\ContentPathGenerator.tt">
+      <LastGenOutput>ContentPathGenerator.cs</LastGenOutput>
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </None>
+  </ItemGroup>
 </Project>

@@ -11,6 +11,7 @@
     <copyright>Copyright © ApmeM 2019</copyright>
     <dependencies>
       <group targetFramework="netstandard2.0">
+        <dependency id="LocomotorECS" version="1.1.0.0" />
       </group>
     </dependencies>
     <repository type="git" url="https://github.com/ApmeM/SpineEngine.git" />        
