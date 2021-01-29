@@ -37,7 +37,7 @@
         {
             get
             {
-                pixelTexture = pixelTexture ?? Core.Instance.Content.Load<Texture2D>(ContentPaths.SpriteEngine.Textures.pixel);
+                pixelTexture = pixelTexture ?? Core.Instance.Content.Load<Texture2D>(ContentPaths.SpineEngine.Textures.pixel);
                 return pixelTexture;
             }
         }

@@ -5,7 +5,7 @@
 
     public class SpriteEffect : Effect
     {
-        public const string EffectAssetName = ContentPaths.SpriteEngine.Effects.spriteEffect;
+        public const string EffectAssetName = ContentPaths.SpineEngine.Effects.spriteEffect;
 
         private readonly EffectParameter matrixTransformParam;
 
