@@ -9,6 +9,7 @@
     <DefineConstants>Bridge</DefineConstants> 
     <AssemblyName>SpineEngine</AssemblyName> 
     <RootNamespace>SpineEngine</RootNamespace>
+    <DefineConstants>Bridge;SPRITE_BATCH</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="obj\**" />

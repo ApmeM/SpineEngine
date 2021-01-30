@@ -5,6 +5,7 @@
     <Copyright>Copyright ©  2019</Copyright>
     <Configurations>Debug;Release</Configurations>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <DefineConstants>SPRITE_BATCH</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="obj\**" />
