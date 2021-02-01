@@ -6,10 +6,9 @@
 
     using SpineEngine.ECS.Components;
     using SpineEngine.Maths;
-    using SpineEngine.Utils;
 
     using NUnit.Framework;
-    /*
+
     [TestFixture]
     public class TransformationUtilsTests
     {
@@ -97,5 +96,4 @@
                 result.LocalTransformMatrix);
         }
     }
-    */
 }
