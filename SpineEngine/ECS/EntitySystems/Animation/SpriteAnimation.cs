@@ -48,6 +48,14 @@
             this.Frames.AddRange(frames);
         }
 
+        public SpriteAnimation(IReadOnlyList<SubtextureDrawable> frames, params int[] idx)
+        {
+            foreach (var id in idx)
+            {
+                this.Frames.Add(frames[id]);
+            }
+        }
+
         /// <summary>
         ///     frames per second for the animations
         /// </summary>
